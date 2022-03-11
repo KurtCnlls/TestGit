@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Neue';
+    src: url('fonts/NHaasGroteskTXPro-55Rg.ttf');
+}
 body{
-    background-color: red;
+    background-color: white;
+}
+.vettr-a-text-link{
+    color:#0074c3;
+    font-family: 'Neue', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px double;
+}
+.vettr-a-text-link:hover{
+    color: rgba(0,116, 195, 0.5);
 }
